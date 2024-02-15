@@ -1,0 +1,286 @@
+/* debut navbar */
+nav.bg-dark{
+    background-color: black !important;
+    position: inherit; 
+
+    
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    color: gold;
+}
+
+.navbar-brand:hover, .navbar ul li a{
+    color:#0d6efd;
+    border-bottom:gold;
+}
+
+.navbar ul{
+    margin-right:20px;
+}
+
+.navbar ul li a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    display:inline-block;
+}
+
+
+nav ul li a:hover{
+    border-bottom: solid 0.5px gold ;
+    transition: 2s;
+
+    background-color : rgb(255, 255, 255);
+    color : #0d6efd !important;
+}
+
+.navbar ul li.dropdown ul{
+    background-color :#646262da
+}
+nav ul li.dropdown a:hover{
+    border: none ;
+    background-color:gold, transparent ;
+    color: black;
+}
+/* fin navbar */
+
+/* bannner*/
+.banner {
+    background-color: black;
+}
+
+.banner .banner-img {
+    background: url('../images/R.png')no-repeat center/contain fixed;
+}
+.banner .banner-overlay{
+    height: 550px;
+    background-color:(0,0,0,1);
+    color:white;
+    text-align: center;
+}
+
+.banner .banner-overlay h3{
+    font-weight: bold;
+    font-size:60px;
+}
+.banner .banner-overlay h5{
+    font-weight: bold;
+    font-size:30px;
+}
+
+/* fin */
+
+
+/* a propos */
+div .couvert, .apropo{
+    background: url(../images/homme-ordi-775x1024.jpg) no-repeat center fixed;
+    background-color: white 80px;
+}
+div .apropo{
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+#about .trait{
+    height: 5px;
+    width: 90px;
+    background-color: #0D6EFD;
+    margin: 0 auto 10px;
+    margin-left: 0px;
+}
+
+#about h3{
+    text-align: left;
+}
+
+
+/* servces */
+#services h3, #services p{
+    text-align: center;
+}
+#services h3:first-child{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#services .trait{
+    height: 4px;
+    width: 90px;
+    background-color: #0D6EFD;
+    margin: 0 auto 40px;
+}
+#services .bi{
+    font-size: 50px;
+    font-weight: bold;
+}
+#services .icon-boite{
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    border: 10px solid #0D6EFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services .icon-boite:hover{
+    background-color: #0D6EFD;
+    color: white;
+    border: 10px solid #c1d2ec;
+}
+
+
+
+/* work */
+#work{
+    background:url(../images/post-3.jpg) no-repeat center/cover fixed;
+    margin: 60px 0;
+    padding : 0
+}
+
+#work .overlay{
+    height:400px ;
+    background-color:#0d6efdcd ;
+    color : white;
+    text-align: center;
+}
+
+#work .bi{
+    font-size: 50px;
+    font-weight: bold;
+}
+#work .icon-boite{
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    border: 10px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* portfolio */
+#portfolio .bi-plus-circle{
+    color:gold;
+    font-size:40px;
+    font-weight:bolder;
+}
+
+#portfolio .trait{
+    height: 4px;
+    width: 80px;
+    background-color: #0D6EFD;
+    margin: 10px auto 40px;
+}
+
+#portfolio h2, #portfolio p{
+    text-align:center;
+}
+#portfolio h2{
+    font-size:40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/* profil */
+#profil{
+    background: url(../images/work-5.jpg) no-repeat center/cover fixed;
+    margin:60px 0;
+    padding: 0 ;
+
+}
+
+#profil .overlay{
+    height: 600px;
+    background-color: #0D6EFDcd;
+    color:white;
+    
+}
+
+#profil img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
+#profil button{
+    width: 15px;
+    height: 15px;
+    border-radius: 100px ;
+    background-color: rgb(238, 189, 30);
+}
+
+/* blog */
+#blog .trait{
+    height: 4px;
+    width: 80px;
+    background-color: #0D6EFD;
+    margin: 10px auto 40px;
+}
+
+#blog h2, #blog p{
+    text-align: center;
+}
+
+#blog h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#blog .profil{
+height: 40px;
+width: 40px;
+border-radius: 90px;
+object-fit: contain;
+}
+
+#blog h4 span.title{
+    font-size: 14px;
+}
+
+#blog h4 span.time{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile design */
+@media (max-width:513px) {
+    .banner .banner-overlay{
+        height: 320px;
+    }
+
+    .banner .banner-img {
+        background: url('../images/matof.jpg')no-repeat center/cover fixed;
+    }
+    
+    .banner .banner-overlay h3{
+        font-size:40px;
+    }
+    .banner .banner-overlay h5{
+        font-size:20px;
+    }
+
+    .navbar ul{
+        padding-left: 50px;
+    }
+
+}
